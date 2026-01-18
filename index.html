@@ -5,139 +5,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devoir bilan n°1</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/principal.css">
 </head>
 <body>
     <div class="principal">
         <header>
-            <img src="assets/images/profil.jpg" alt="photo_de_profil">
-            <h1>Bryan NATIVEL</h1>
-            <p class="intitulé">Développeur Web et Web Mobile</p>
-            <address class="lien-contact">
-                <a href="mailto:test@mail.fr">tets@mail.fr</a>
-                <a href="tel:0692000000">0692000000</a>
-                <a
-                    href="https://www.google.com/maps/place/La+R%C3%A9union/@-21.1352628,55.3624988,11z/data=!3m1!4b1!4m6!3m5!1s0x2178778110b8e43b:0x4a7f8e89ecdbeaf9!8m2!3d-21.115141!4d55.536384!16zL20vMGx4aGo?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D">
-                    Mon adresse
-                </a>
-                <p>Permis B</p>
-            </address>
+            <img class="photo-profil" src="assets/images/profil.jpg" alt="photo_de_profil">
+            <div class="titre">
+               <h1>Prénom Nom</h1>
+                <p class="intitule">Développeur Web et Web Mobile</p>
+                <address class="lien-contact">
+                    <a class="mail"
+                        href="mailto:test@mail.fr">
+                        <i class="fa-solid fa-envelope"></i>
+                        Mail
+                    </a>
+                    <a class="adresse"
+                        href="https://www.google.com/maps/place/La+R%C3%A9union/@-21.1352628,55.3624988,11z/data=!3m1!4b1!4m6!3m5!1s0x2178778110b8e43b:0x4a7f8e89ecdbeaf9!8m2!3d-21.115141!4d55.536384!16zL20vMGx4aGo?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D">
+                        <i class="fa-solid fa-house"></i>
+                        Adresse
+                    </a>
+                    <a class="tel"
+                        href="tel:0692000000">
+                        <i class="fa-solid fa-phone"></i>
+                        Téléphone
+                    </a>                    
+                    <a class="permis" >
+                        <i class="fa-solid fa-car"></i>
+                        Permis B
+                    </a>
+                </address>
+            </div>
         </header>
 
         <aside>
-            <section class="competences">
-                <h2>Comptétences</h2>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>Javascript</p>
-                <p>PHP</p>
-            </section>
+            <div class="aside">
+                <section class="competences">
+                    <h2>Comptétences</h2>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Javascript</p>
+                    <p>PHP</p>
+                </section>
 
-            <section class="langues">
-                <h2>Langues</h2>
-                <dl>
-                    <dt>Français</dt>
-                    <dl>Langue maternelle</dl>
-                </dl>
-                <dl>
-                    <dt>Anglais</dt>
-                    <dl>Professionnel</dl>
-                </dl>
-                <dl>
-                    <dt>Allemand</dt>
-                    <dl>Notions</dl>
-                </dl>
-            </section>
+                <section class="langues">
+                    <h2>Langues</h2>
+                    <dl>
+                        <dt>Français</dt>
+                        <dl>Langue maternelle</dl>
+                    </dl>
+                    <dl>
+                        <dt>Anglais</dt>
+                        <dl>Professionnel</dl>
+                    </dl>
+                    <dl>
+                        <dt>Allemand</dt>
+                        <dl>Notions</dl>
+                    </dl>
+                </section>
 
-            <section class="qualites">
-                <h2>Qualités</h2>
-                <ul>
-                    <li>Esprit d'équipe</li>
-                    <li>Autonome</li>
-                    <li>Organisation</li>
-                    <li>Créativité</li>
-                </ul>
-            </section>
+                <section class="qualites">
+                    <h2>Qualités</h2>
+                    <ul>
+                        <li>Esprit d'équipe</li>
+                        <li>Autonome</li>
+                        <li>Organisation</li>
+                        <li>Créativité</li>
+                    </ul>
+                </section>
 
-            <section class="ventres-interet">
-                <h2>Centres d'intérêt</h2>
-                <ul>
-                    <li>Yoga</li>
-                    <li>Tennis</li>
-                    <li>Ecologie</li>
-                </ul>
-            </section>                  
+                <section class="ventres-interet">
+                    <h2>Centres d'intérêt</h2>
+                    <ul>
+                        <li>Yoga</li>
+                        <li>Tennis</li>
+                        <li>Ecologie</li>
+                    </ul>
+                </section>  
+            </div>
         </aside>
 
         <main>
-            <section class="profil">
-                <h2>Profil</h2>
-                <pre>
-                        Créer son CV en ligne permet de se différencier des autres candidats. Il montre vos 
-                    compétences en développement pures mais aussi votre capacité à prendre en compte des 
-                    contraintes de design, d’accessibilité, de référencement ou encore d’expérience utilisateur. Un 
-                    recruteur préfèrera souvent un candidat polyvalent, ouvert d’esprit et qui ne se limite pas à sa 
-                    propre discipline.
-                </pre>
-            </section>
+            <div class="main">
+                <section class="profil">
+                    <h2>Profil</h2>
+                    <pre>
+                            Créer son CV en ligne permet de se différencier des autres candidats. Il montre vos 
+                        compétences en développement pures mais aussi votre capacité à prendre en compte des 
+                        contraintes de design, d’accessibilité, de référencement ou encore d’expérience utilisateur. Un 
+                        recruteur préfèrera souvent un candidat polyvalent, ouvert d’esprit et qui ne se limite pas à sa 
+                        propre discipline.
+                    </pre>
+                </section>
 
-            <section class="formations">
-                <h2>Formations</h2>
-                <div>
-                    <h3>Titre Professionnel DWWM</h3>
-                    <p><small>Centre Européen de Formation</small></p>
-                    <p class="date">2023/2024</p>
-                </div>
+                <section class="formations">
+                    <h2>Formations</h2>
+                    <div>
+                        <h3>Titre Professionnel DWWM</h3>
+                        <p><small>Centre Européen de Formation</small></p>
+                        <p class="date">2023/2024</p>
+                    </div>
 
-                <div>
-                    <h3>Remise à Niveau - Métiers du numérique</h3>
-                    <p><small>Lycée de la ville</small></p>
-                    <p class="date">Juin 2023 - Septembre 2023</p>
-                </div>
+                    <div>
+                        <h3>Remise à Niveau - Métiers du numérique</h3>
+                        <p><small>Lycée de la ville</small></p>
+                        <p class="date">Juin 2023 - Septembre 2023</p>
+                    </div>
 
-                <div>
-                    <h3>Baccalauréat</h3>
-                    <p><small>Lycée de la ville</small></p>
-                    <p class="date">1983</p>
-                </div>                
-            </section>
+                    <div>
+                        <h3>Baccalauréat</h3>
+                        <p><small>Lycée de la ville</small></p>
+                        <p class="date">1983</p>
+                    </div>                
+                </section>
 
-            <section class="stages">
-                <h2>Stages</h2>
-                <div>
-                    <h3>Gestionnaure de paye</h3>
-                    <p><small>Société Truc & Machin</small></p>
-                    <p class="date">Mars 2022 - Avril 2022</p>
-                </div>
+                <section class="stages">
+                    <h2>Stages</h2>
+                    <div>
+                        <h3>Gestionnaure de paye</h3>
+                        <p><small>Société Truc & Machin</small></p>
+                        <p class="date">Mars 2022 - Avril 2022</p>
+                    </div>
 
-                <div>
-                    <h3>Agent d'accueil</h3>
-                    <p><small>Marie de la ville</small></p>
-                    <p class="date">Janvier 2021 - Février 2021</p>
-                </div>               
-            </section>
+                    <div>
+                        <h3>Agent d'accueil</h3>
+                        <p><small>Marie de la ville</small></p>
+                        <p class="date">Janvier 2021 - Février 2021</p>
+                    </div>               
+                </section>
 
-            <section class="exp_pro">
-                <h2>Expérience professionnelle</h2>
-                <div>
-                    <h3>Agent d'accueil</h3>
-                    <p><small>Marie de la ville</small></p>
-                    <p class="date">Mars 2021 - Juillet 2021</p>
-                </div>
+                <section class="exp_pro">
+                    <h2>Expérience professionnelle</h2>
+                    <div>
+                        <h3>Agent d'accueil</h3>
+                        <p><small>Marie de la ville</small></p>
+                        <p class="date">Mars 2021 - Juillet 2021</p>
+                    </div>
 
-                <div>
-                    <h3>Chauffeur - Livreur</h3>
-                    <p><small>Transport Nénès & Fils</small></p>
-                    <p class="date">Septembre 2021 - Décembre 2021</p>
-                </div>
+                    <div>
+                        <h3>Chauffeur - Livreur</h3>
+                        <p><small>Transport Nénès & Fils</small></p>
+                        <p class="date">Septembre 2021 - Décembre 2021</p>
+                    </div>
 
-                <div>
-                    <h3>Préparateur de commandes</h3>
-                    <p><small>Le slip francais</small></p>
-                    <p class="date">Janvier 2000 - Septembre 2000</p>
-                </div>                
-            </section>
-
+                    <div>
+                        <h3>Préparateur de commandes</h3>
+                        <p><small>Le slip francais</small></p>
+                        <p class="date">Janvier 2000 - Septembre 2000</p>
+                    </div>                
+                </section>
+            </div>
         </main>
 
         <footer>
@@ -148,7 +167,6 @@
             </nav>
         </footer>
 
-    </div>
-    
+    </div>    
 </body>
 </html>
