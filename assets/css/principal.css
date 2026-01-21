@@ -88,3 +88,114 @@ i{
     color: white;    
 }
 /* Fin de la mise en forme de l'entête */ 
+
+/* Partie aside */
+.competences h2{
+    margin: 0 auto 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;    
+    margin-bottom: 20px;
+}
+
+
+.html, .css, .javascript, .php{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Lato";
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 auto 10px;
+    padding-left: 0px;
+}
+
+.competences dt{
+    font-family: "Lato";
+}
+
+.competences i{
+    font-size: 13px;
+    margin: 0;
+    color: #17abb3;
+}
+
+.langues h2{
+    margin: 35px auto 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;    
+    margin-bottom: 20px;  
+}
+
+.lang-francais, .lang-anglais, .lang-allemand{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 10px;
+    font-size: 1em; 
+}
+
+.langues dt{
+    font-family: "Lato";
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.langues{
+    margin-bottom: 35px;
+}
+
+.qualites h2{
+    margin: 35px auto 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;    
+    margin-bottom: 24px;  
+
+}
+
+.qualites ul{
+    display: flex;
+    flex-direction: column;    
+    list-style-type: square;
+    padding: 0 0 0 0;
+    margin: 0 0 0 24px;
+    gap: 4px;
+}
+
+.qualites li{
+    position: relative;
+    line-height: normal; 
+    text-indent: -1px;
+}
+
+.qualites li::marker{
+    font-size: 1.5rem;
+    line-height: 0;
+    color: #17abb3;
+}
+
+.centres-interet h2{
+    margin: 25px auto 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;    
+    margin-bottom: 24px;  
+}
+
+.centres-interet ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: square;
+    padding-inline-start: 0;
+    margin-left: 24px;
+    gap: 4px;
+}
+
+.centres-interet li{
+    position: relative;
+    line-height: normal;
+    text-indent: -1px;
+}
+
+.centres-interet li::marker{
+    font-size: 1.5rem;
+    line-height: 0;
+    color: #17abb3;
+}
+/* Fin partie asigne */
