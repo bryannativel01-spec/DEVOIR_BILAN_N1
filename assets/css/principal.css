@@ -82,7 +82,7 @@ address a{
     padding-bottom: 2px;
 }
 
-i{  
+.lien-contact i{  
     padding-top: 1px;
     margin-right: 10px;
     color: white;    
@@ -274,3 +274,32 @@ i{
     margin: 0;
 }
 /* Fin partie main */
+
+/* Début partie footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+footer i{
+    color: white;
+    font-size: 24px;
+}
+
+footer p{
+    font-size: 12px;
+    font-style: italic;
+    color: white;
+    margin: 0;
+}
+
+footer i{
+    margin-top: 12px;
+}
+
+#middle{
+    margin: 0 21px 0;
+}
