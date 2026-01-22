@@ -97,7 +97,6 @@ i{
     margin-bottom: 20px;
 }
 
-
 .html, .css, .javascript, .php{
     display: flex;
     justify-content: space-between;
@@ -117,6 +116,7 @@ i{
     margin: 0;
     color: #17abb3;
 }
+
 
 .langues h2{
     margin: 35px auto 0;
@@ -199,3 +199,78 @@ i{
     color: #17abb3;
 }
 /* Fin partie asigne */
+
+/* Début partie main */ 
+.profil{
+    margin-bottom: 23px;
+}
+
+.profil h2{
+    margin: 0 auto 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.paragraphe-1{
+    margin: 20px auto 0;
+    text-indent: 1.5em;
+    line-height: 1.2em;
+    text-align: justify;
+}
+
+.paragraphe-2{
+    margin: 0;
+    font-size: 1em;
+    text-indent: 1.5em;
+    line-height: 1.2em;
+    text-align: justify; 
+}
+
+.formations h2{
+    margin: 0 auto 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.stages h2{
+    margin: 27px auto 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.exp_pro h2{
+    margin: 26px auto 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+
+.formations div, .stages div, .exp_pro div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto 21px;
+}
+
+.formations dd, .stages dd, .exp_pro dd{
+    margin: 0;
+    font-style: italic;
+    font-size: 0.9em;
+    line-height: 0.9;
+}
+
+.formations dt, .stages dt, .exp_pro dt{
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.formations p, .stages p, .exp_pro p{
+    margin: 0;
+    color: #17abb3;
+}
+
+.formations dl, .stages dl, .exp_pro dl{
+    margin: 0;
+}
+/* Fin partie main */
