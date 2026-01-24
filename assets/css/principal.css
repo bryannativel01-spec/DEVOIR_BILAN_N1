@@ -19,10 +19,18 @@ h1, h2, h3{
 
 /* Début de mise en forme de l'entête complet */ 
 .photo-profil{
+    text-decoration: none;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin: auto;
+}
+
+.lien-photo{
     width: 140px;
     height: 140px;
     border: 5px solid white;
-    border-radius: 75px;
+    border-radius: 50%;
     margin: auto 100px;
 }
 
@@ -233,13 +241,13 @@ address a{
 }
 
 .stages h2{
-    margin: 27px auto 20px;
+    margin: 5px auto 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #e3e3e3;
 }
 
 .exp_pro h2{
-    margin: 26px auto 20px;
+    margin: 5px auto 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #e3e3e3;
 }
@@ -249,7 +257,8 @@ address a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 auto 21px;
+    height: 53px;
+    /*margin: 0 auto 21px;*/
 }
 
 .formations dd, .stages dd, .exp_pro dd{
@@ -303,3 +312,25 @@ footer i{
 #middle{
     margin: 0 21px 0;
 }
+/* Fin partie footer */
+
+
+/* Début partie footer */
+.formations div:hover, .stages div:hover, .exp_pro div:hover{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #eef1f2;
+    border-left: 5px solid #17abb3;
+    transition: 200ms;
+}
+
+.lien-photo:hover{
+    cursor: zoom-in;
+    scale: 1.2;
+    transition: 500ms;
+}
+
+i:hover{
+    opacity: 50%;
+}
+/* Fin partie footer */
